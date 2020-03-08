@@ -1,5 +1,5 @@
 class StudentsController < ApplicationController
-  
+
   def index
     @students = Student.all
   end
@@ -19,5 +19,5 @@ class StudentsController < ApplicationController
         }
       )
       redirect_to student_path(@student)
-    end 
+    end
 end
